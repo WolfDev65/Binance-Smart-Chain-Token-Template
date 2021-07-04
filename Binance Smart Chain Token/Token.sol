@@ -6,7 +6,7 @@ contract Token {
     mapping(address => mapping(address =>uint)) public allowance;
     uint public totalSupply = 1000000 * 10 ** 18;
     string public name = "Nerd Moon Token";
-    string public symbol = "SMT";
+    string public symbol = "NMT";
     uint public decimals = 18;
     
     event Transfer(address indexed from, address indexed to, uint value);
